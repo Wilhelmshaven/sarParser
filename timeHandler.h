@@ -1,3 +1,5 @@
+#pragma once
+
 #include "commonHeaders.h"
 
 class timeHandler

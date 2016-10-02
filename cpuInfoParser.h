@@ -11,6 +11,8 @@ typedef struct cpuInfo
 	double idle;
 };
 
+#pragma once
+
 class cpuInfoParser
 {
 public:
@@ -26,12 +28,7 @@ private:
 
 	timeHandler timeParser;
 
-	void zeroInfo(cpuInfo *info);
-
-	//unsigned long getTodayTime(string clock, string AMorPM);
-
-	//unsigned long calNTPUnix(string date);
-	//unsigned long calNTP(string date);
+	void zeroMem(cpuInfo *info);
 
 	unsigned long today;
 };
